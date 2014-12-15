@@ -1,0 +1,141 @@
+.editor-wrapper {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	
+	margin-top: 25px;
+	
+	color: #000;
+}
+
+.editor-wrapper .editor-function-bar {
+	display: block;
+	position: relative;
+	min-height: 150px;
+	background: #333;
+	
+	padding: 15px 20px;
+	color: #ecf0f1;
+}
+
+.editor-wrapper .editor-function-bar .editor-title {
+	color: #1abc9c;
+	font-size: 20px;
+	display: block;
+	
+	padding-bottom: 5px;
+	border-bottom: 1px solid #1abc9c;
+	
+	margin: 0 0 5px 0;
+}
+
+.editor-wrapper .editor {
+	background: #fff;
+	color: inherit;
+	
+	padding: 10px 25px;
+}
+
+.editor-wrapper .editor-function-bar div[role="seperator"] {
+	margin-bottom: 10px;
+}
+
+/**
+*function buttons
+**/
+*[role="function"] {
+	cursor: pointer;
+}
+
+.icon {
+
+}
+
+.function-btn {
+	padding: 5px 14px;
+	
+	margin-bottom: 3px;
+	margin-right: 5px;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	display: inline-block;
+
+	background: #5C5C5C;
+	
+	transition: 250ms ease;
+	-webkit-transition: 250ms ease;
+	-moz-transition: 250ms ease;
+}
+
+.function-btn:hover{
+	background: #7A7A7A;
+	color: #1abc9c;
+}
+
+.btn-group {
+
+}
+
+.editor-function-bar .btn-group{
+	margin-right: 8px;
+}
+
+.editor-function-bar .btn-group:first-child{
+	clear: left;
+}
+
+.editor-function-bar .btn-group:last-child{
+	margin-right: 0px;
+}
+
+.editor-function-bar .btn-group .function-btn {
+	margin: 0;
+	
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.editor-function-bar .btn-group .function-btn:first-child{
+	border-radius: 3px 0 0 3px;
+}
+
+.editor-function-bar .btn-group .function-btn:last-child{
+	border-radius: 0 3px 3px 0;
+}
+
+.editor-function-bar .function-btn .icon.size-display:before{
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+/** prepare your anus **/
+.editor-function-bar .function-btn .icon.size-display.header1:before {
+	content: "H1";
+}
+.editor-function-bar .function-btn .icon.size-display.header2:before {
+	content: "H2";
+}
+.editor-function-bar .function-btn .icon.size-display.header3:before {
+	content: "H3";
+}
+.editor-function-bar .function-btn .icon.size-display.header4:before {
+	content: "H4";
+}
+.editor-function-bar .function-btn .icon.size-display.header5:before {
+	content: "H5";
+}
+.editor-function-bar .function-btn .icon.size-display.header6:before {
+	content: "H6";
+}
+.editor-function-bar .function-btn .icon.size-display.small:before {
+	content: "small";
+	font-size: 8px;
+	line-height: 1em;
+}
+.editor-function-bar .function-btn .icon.size-display.paragraph:before {
+	content: "p";
+}
